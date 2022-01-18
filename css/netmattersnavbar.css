@@ -1,0 +1,10 @@
+.netMattersNavBar{
+    display: flex;
+    justify-content: flex-end;
+}
+.item{
+   margin: 10px;
+}
+.item-1{
+   margin-right: auto;
+}
