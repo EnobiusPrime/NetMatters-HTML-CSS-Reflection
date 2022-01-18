@@ -3,5 +3,10 @@
     justify-content: center;
 }
 .item{
-   margin: 10px;
+    margin: 10px;
+}
+.squarebt{
+    color: white;
+    background-color: grey;
+    width: 80px;
 }
