@@ -1,12 +1,27 @@
 .netMattersNavBar{
     display: flex;
+    margin-top: 10px;
+    height: 100px;
     justify-content: center;
 }
-.item{
+.navText{
+    color: white;
+    height: 56px;
+}.item{
     margin: 10px;
+}
+.item-4{
+    margin-right: 0;
+}
+.item-5{
+    margin-left: 0;
+    background-color: grey;
+}
+.item-6{
+    font-size:12px
 }
 .squarebt{
     color: white;
-    background-color: grey;
-    width: 80px;
+    width: 56px;
+    height: 56px;
 }
