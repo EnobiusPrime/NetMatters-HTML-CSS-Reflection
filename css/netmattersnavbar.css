@@ -31,4 +31,13 @@
 .mainNavBar{
     height: 100px;
     background-color: purple;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+.f1{
+   font-size: 12;
+}
+.f2{
+   font-size: 20;
 }
