@@ -156,3 +156,24 @@
     padding-bottom: 40px;
     border: 1px solid black;
 }
+
+.readmore{
+    background: blue;
+    color: white;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.iconography{
+    background: blue;
+    color: white;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50%;
+}
