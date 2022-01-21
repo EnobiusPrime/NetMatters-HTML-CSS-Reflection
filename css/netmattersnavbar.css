@@ -117,7 +117,6 @@
 }
 
 .xq{
-    height: 100px;
     background-color: white;
     display: flex;
     margin-top: 10px;
@@ -125,7 +124,6 @@
 }
 
 .xd{
-    height: 100px;
     background-color: white;
     display: flex;
     margin-top: 10px;
@@ -136,14 +134,25 @@
     text-align: center;
     padding-top: 10px;
     width: 100;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid black;
 }
 
 .xdb{
+    flex: block;
     text-align: center;
     padding-top: 10px;
     width: 100;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid black;
 }
