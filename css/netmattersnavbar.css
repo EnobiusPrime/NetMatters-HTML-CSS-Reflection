@@ -159,10 +159,71 @@
 
 .readmore{
     display: inline-block;
-    background: blue;
-    color: white;
     justify-content: center;
     width: 120px;
+}
+.readmore1:hover{
+    background: #fff;
+    color: #67809f;
+}
+.readmore1{
+    background: #67809f;
+    color: #fff;
+}
+
+.readmore2:hover{
+    background: #fff;
+    color: #4183d7;
+}
+.readmore2{
+    background: #4183d7;
+    color: #fff;
+}
+
+.readmore3:hover{
+    background: #fff;
+    color: #2ecc71;
+}
+.readmore3{
+    background: #2ecc71;
+    color: #fff;
+}
+
+
+.readmore4:hover{
+    background: #fff;
+    color: #d64541;
+}
+.readmore4{
+    background: #d64541;
+    color: #fff;
+}
+
+.readmore5:hover{
+    background: #fff;
+    color: #926fb1;
+}
+.readmore5{
+    background: #926fb1;
+    color: #fff;
+}
+
+.readmore6:hover{
+    background: #fff;
+    color: #f62459;
+}
+.readmore6{
+    background: #f62459;
+    color: #fff;
+}
+
+.readmore7:hover{
+    background: #fff;
+    color: #926fb1;
+}
+.readmore7{
+    background: #926fb1;
+    color: #fff;
 }
 .iconography{
     background: blue;
