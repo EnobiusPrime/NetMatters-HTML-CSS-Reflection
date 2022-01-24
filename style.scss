@@ -1,0 +1,171 @@
+
+    $colour0: #ffffff;
+    $colour1: #67809f;
+    $colour2: #4183d7;
+    $colour3: #2ecc71;
+    $colour4: #d64541;
+    $colour5: #926fb1;
+    $colour6: #f62459;
+    $colour7: #926fb1;
+
+
+.readmore{
+    display: inline-block;
+    justify-content: center;
+    width: 120px;
+}
+.readmore1:hover{
+    $colour8: $colour1;
+    $colour9: $colour0;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+.readmore1{
+    $colour8: $colour0;
+    $colour9: $colour1;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+
+.readmore2:hover{
+    $colour8: $colour2;
+    $colour9: $colour0;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+.readmore2{
+    $colour8: $colour0;
+    $colour9: $colour2;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+
+.readmore3:hover{
+    $colour8: $colour3;
+    $colour9: $colour0;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+.readmore3{
+    $colour8: $colour0;
+    $colour9: $colour3;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+
+
+.readmore4:hover{
+    $colour8: $colour4;
+    $colour9: $colour0;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+.readmore4{
+    $colour8: $colour0;
+    $colour9: $colour4;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+
+.readmore5:hover{
+    $colour8: $colour5;
+    $colour9: $colour0;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+.readmore5{
+    $colour8: $colour0;
+    $colour9: $colour5;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+
+.readmore6:hover{
+    $colour8: $colour6;
+    $colour9: $colour0;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+.readmore6{
+    $colour8: $colour0;
+    $colour9: $colour6;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+
+.readmore7:hover{
+    $colour8: $colour7;
+    $colour9: $colour0;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+.readmore7{
+    $colour8: $colour0;
+    $colour9: $colour7;
+    background: $colour9;
+    color: $colour8;
+    .iconography, .readmore{
+        background: $colour8;
+        color: $colour9;    
+    }
+}
+.iconography{
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50%;
+}

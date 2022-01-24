@@ -1,0 +1,159 @@
+.readmore {
+  display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 120px;
+}
+
+.readmore1:hover {
+  background: #ffffff;
+  color: #67809f;
+}
+
+.readmore1:hover .iconography, .readmore1:hover .readmore {
+  background: #67809f;
+  color: #ffffff;
+}
+
+.readmore1 {
+  background: #67809f;
+  color: #ffffff;
+}
+
+.readmore1 .iconography, .readmore1 .readmore {
+  background: #ffffff;
+  color: #67809f;
+}
+
+.readmore2:hover {
+  background: #ffffff;
+  color: #4183d7;
+}
+
+.readmore2:hover .iconography, .readmore2:hover .readmore {
+  background: #4183d7;
+  color: #ffffff;
+}
+
+.readmore2 {
+  background: #4183d7;
+  color: #ffffff;
+}
+
+.readmore2 .iconography, .readmore2 .readmore {
+  background: #ffffff;
+  color: #4183d7;
+}
+
+.readmore3:hover {
+  background: #ffffff;
+  color: #2ecc71;
+}
+
+.readmore3:hover .iconography, .readmore3:hover .readmore {
+  background: #2ecc71;
+  color: #ffffff;
+}
+
+.readmore3 {
+  background: #2ecc71;
+  color: #ffffff;
+}
+
+.readmore3 .iconography, .readmore3 .readmore {
+  background: #ffffff;
+  color: #2ecc71;
+}
+
+.readmore4:hover {
+  background: #ffffff;
+  color: #d64541;
+}
+
+.readmore4:hover .iconography, .readmore4:hover .readmore {
+  background: #d64541;
+  color: #ffffff;
+}
+
+.readmore4 {
+  background: #d64541;
+  color: #ffffff;
+}
+
+.readmore4 .iconography, .readmore4 .readmore {
+  background: #ffffff;
+  color: #d64541;
+}
+
+.readmore5:hover {
+  background: #ffffff;
+  color: #926fb1;
+}
+
+.readmore5:hover .iconography, .readmore5:hover .readmore {
+  background: #926fb1;
+  color: #ffffff;
+}
+
+.readmore5 {
+  background: #926fb1;
+  color: #ffffff;
+}
+
+.readmore5 .iconography, .readmore5 .readmore {
+  background: #ffffff;
+  color: #926fb1;
+}
+
+.readmore6:hover {
+  background: #ffffff;
+  color: #f62459;
+}
+
+.readmore6:hover .iconography, .readmore6:hover .readmore {
+  background: #f62459;
+  color: #ffffff;
+}
+
+.readmore6 {
+  background: #f62459;
+  color: #ffffff;
+}
+
+.readmore6 .iconography, .readmore6 .readmore {
+  background: #ffffff;
+  color: #f62459;
+}
+
+.readmore7:hover {
+  background: #ffffff;
+  color: #926fb1;
+}
+
+.readmore7:hover .iconography, .readmore7:hover .readmore {
+  background: #926fb1;
+  color: #ffffff;
+}
+
+.readmore7 {
+  background: #926fb1;
+  color: #ffffff;
+}
+
+.readmore7 .iconography, .readmore7 .readmore {
+  background: #ffffff;
+  color: #926fb1;
+}
+
+.iconography {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
