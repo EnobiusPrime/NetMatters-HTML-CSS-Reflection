@@ -158,15 +158,12 @@
 }
 
 .readmore{
+    display: inline-block;
     background: blue;
     color: white;
     justify-content: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    width: 120px;
 }
-
 .iconography{
     background: blue;
     color: white;
