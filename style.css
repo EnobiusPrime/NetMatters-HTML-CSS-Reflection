@@ -165,6 +165,18 @@
           justify-content: center;
 }
 
+.xt {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 10px 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .xqa {
   text-align: center;
   padding-top: 10px;
@@ -188,6 +200,15 @@
   margin-left: 20px;
   margin-right: 20px;
   padding: 16px;
+  border: 1px solid black;
+}
+
+.xta {
+  text-align: center;
+  width: 100;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 40px;
   border: 1px solid black;
 }
 
@@ -361,6 +382,15 @@ i2 {
 .bar {
   margin-left: 100px;
   border-bottom: 5px solid black;
+}
+
+.readmore8 h3,
+.readmore9 h3 {
+  color: #2ecc71;
+}
+
+.readmore10 h3 {
+  color: #4183d7;
 }
 
 @media screen and (max-width: 900px) {
