@@ -11,21 +11,23 @@ $colour8: #ffffff;
 $colour9: #ffffff;
 
 .netMattersNavBar{
-    display: flex;
+    display: auto;
+    flex: wrap;
+    width: 100hw;
     margin-top: 10px;
-    height: 100px;
+    margin-bottom: 10px;
     justify-content: center;
 }
 .navText{
     color: white;
     height: 56px;
-}.item{
-    margin: 10px;
+}
+.item{
+    flex: wrap;
 }
 .item-3{
 }
 .item-4{
-    background-color: grey;
     margin-right: 0;
 }
 .item-5{
@@ -346,10 +348,38 @@ i2{
     .mainNavBar{
         display: none;
     }
-    .item-5{
+    .item-4{
         order: -1;
+        width: 100vw;
+    }
+    .item-5{
+        display: none;
+        order: -2;
+        width: 20%;
     }
     .item-1{
-        order: -2;
+        order: -3;
+        width: 80%;
+    }
+    .xq{
+        display: auto;
+        flex-direction: column;
+        width: 100hw;
+    }
+    .xqa{
+    }
+    .xd{
+        display: auto;
+        flex-direction: column;
+        width: 100hw;
+    }
+    .xqa{
+        margin: 15px;
+    }
+    .xdb{
+        margin: 15px;
+    }
+    .netMattersNavBar{
+        flex-direction: row;
     }
 }
