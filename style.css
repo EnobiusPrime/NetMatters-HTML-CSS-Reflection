@@ -19,15 +19,11 @@
 }
 
 .item-4 {
+  background-color: grey;
   margin-right: 0;
 }
 
 .item-5 {
-  margin-left: 0;
-  background-color: grey;
-}
-
-.item-6 {
   font-size: 12px;
 }
 
@@ -51,10 +47,15 @@
 
 .subBar1 {
   display: none;
+  color: white;
+  background-color: #79539a;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .barbinder:hover .subBar1 {
-  display: inline;
+  display: block;
   color: white;
   background-color: #79539a;
   -webkit-box-pack: center;
@@ -77,6 +78,11 @@
 .dq1-1:hover {
   color: white;
   background-color: #79539a;
+}
+
+.dq1-1:hover .qs {
+  color: blue;
+  background-color: green;
 }
 
 .dq1-2 {
@@ -339,5 +345,23 @@
 i2 {
   height: 60px;
   width: 60px;
+}
+
+@media screen and (max-width: 900px) {
+  .item-2,
+  .item-3,
+  .mainNavBar {
+    display: none;
+  }
+  .item-5 {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .item-1 {
+    -webkit-box-ordinal-group: -1;
+        -ms-flex-order: -2;
+            order: -2;
+  }
 }
 /*# sourceMappingURL=style.css.map */

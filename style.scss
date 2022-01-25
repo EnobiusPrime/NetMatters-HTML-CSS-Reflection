@@ -7,6 +7,8 @@ $colour4: #d64541;
 $colour5: #926fb1;
 $colour6: #f62459;
 $colour7: #926fb1;
+$colour8: #ffffff;
+$colour9: #ffffff;
 
 .netMattersNavBar{
     display: flex;
@@ -20,14 +22,13 @@ $colour7: #926fb1;
 }.item{
     margin: 10px;
 }
+.item-3{
+}
 .item-4{
+    background-color: grey;
     margin-right: 0;
 }
 .item-5{
-    margin-left: 0;
-    background-color: grey;
-}
-.item-6{
     font-size:12px
 }
 .squarebt{
@@ -49,11 +50,15 @@ $colour7: #926fb1;
 }
 .subBar1{
      display: none;
+     color: white;
+     background-color: #79539a;
+     justify-content: center;
 }
 
 .barbinder:hover {
     .subBar1{
-        display: inline;
+        //height: 0px;
+        display: block;
         color: white;
         background-color: #79539a;
         justify-content: center;
@@ -73,6 +78,11 @@ $colour7: #926fb1;
 .dq1-1:hover {
     color: white;
     background-color: #79539a;
+    .qs{
+        //height: 100px;
+        color: blue;
+        background-color: green;
+    }
 }
 
 .dq1-2 {
@@ -328,4 +338,18 @@ border: 1px solid black;
 i2{
     height: 60px;
     width: 60px;
+}
+
+@media screen and (max-width: 900px) {
+    .item-2,
+    .item-3,
+    .mainNavBar{
+        display: none;
+    }
+    .item-5{
+        order: -1;
+    }
+    .item-1{
+        order: -2;
+    }
 }
