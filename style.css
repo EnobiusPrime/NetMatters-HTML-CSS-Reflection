@@ -350,6 +350,19 @@ i2 {
   width: 60px;
 }
 
+.netmatters-50percent {
+  display: auto;
+  width: 50vw;
+  margin: 20px 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.bar {
+  margin-left: 100px;
+  border-bottom: 5px solid black;
+}
+
 @media screen and (max-width: 900px) {
   .item-2,
   .item-3,
@@ -402,6 +415,9 @@ i2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  #mk {
+    width: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
