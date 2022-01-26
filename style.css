@@ -1,11 +1,31 @@
 .second-bar {
-  display: auto;
-  -webkit-box-flex: wrap;
-      -ms-flex: wrap;
-          flex: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.color-on {
+  display: none;
+}
+
+.color-off {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.color-flip:hover .color-on {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.color-flip:hover .color-off {
+  display: none;
 }
 
 .netMattersNavBar {

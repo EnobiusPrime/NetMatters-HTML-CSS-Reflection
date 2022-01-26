@@ -1,7 +1,25 @@
 .second-bar{
-    display: auto;
-    flex: wrap;
-    justify-content: center;
+    display: flex;
+    margin: 20px 80px;
+    justify-content: space-between;
+}
+
+.color-on{
+    display: none;
+}
+
+.color-off{
+    display: flex;
+}
+
+.color-flip:hover{
+    .color-on{
+        display: flex;
+    }
+    
+    .color-off{
+        display: none;
+    }
 }
 
 $colour0: #ffffff;
