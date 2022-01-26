@@ -210,6 +210,13 @@
   border: 1px solid black;
 }
 
+.xtz {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 40px;
+  border: 1px solid black;
+}
+
 .readmore {
   padding: 10px;
   margin: 10px;
@@ -386,7 +393,7 @@ i2 {
 .readmore8 h3,
 .readmore9 h3 {
   color: #2ecc71;
-  height: 150px;
+  height: 200px;
 }
 
 .readmore8 img,
@@ -399,7 +406,7 @@ i2 {
 
 .readmore10 h3 {
   color: #4183d7;
-  height: 150px;
+  height: 200px;
 }
 
 .readmore10 img {
@@ -411,6 +418,12 @@ i2 {
 
 .inner-readmore {
   margin: 20px;
+}
+
+.img-circle-icon {
+  display: inline;
+  max-width: 47px;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 900px) {
