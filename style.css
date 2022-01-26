@@ -28,6 +28,54 @@
   display: none;
 }
 
+.details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0px;
+  padding: 40px;
+  color: white;
+  background-color: #333645;
+}
+
+.details a,
+.details a:active,
+.details a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.details a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 40px;
+}
+
+.addresses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 100px;
+}
+
+.footer-decendant {
+  font-size: 16px;
+  margin-left: 40px;
+  max-width: 225px;
+  padding: 0px;
+}
+
+.footer-decendant ul {
+  padding: 0px;
+  list-style-type: none;
+}
+
 .netMattersNavBar {
   display: auto;
   -webkit-box-flex: wrap;
