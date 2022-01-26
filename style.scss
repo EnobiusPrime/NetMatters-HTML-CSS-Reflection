@@ -1,3 +1,8 @@
+.second-bar{
+    display: auto;
+    flex: wrap;
+    justify-content: center;
+}
 
 $colour0: #ffffff;
 $colour1: #67809f;
@@ -406,7 +411,7 @@ i2{
 }
 
 .img-circle-icon{
-    display: inline;
+    float: left;
     max-width: 47px;
     border-radius: 50%;
 }

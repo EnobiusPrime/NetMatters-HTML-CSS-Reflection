@@ -1,3 +1,13 @@
+.second-bar {
+  display: auto;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .netMattersNavBar {
   display: auto;
   -webkit-box-flex: wrap;
@@ -421,7 +431,7 @@ i2 {
 }
 
 .img-circle-icon {
-  display: inline;
+  float: left;
   max-width: 47px;
   border-radius: 50%;
 }
