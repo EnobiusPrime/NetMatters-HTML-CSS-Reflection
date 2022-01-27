@@ -22,9 +22,23 @@
     }
 }
 
+.email-bar{
+    background-color: #dddddd;
+    padding: 20px 80px;
+    justify-content: space-between;
+}
+
+.email-textbox{
+    display: flex;
+}
+
+.copywrite{
+    padding: 0px 0px 50px 100px;
+    color: white;
+    background-color: #333645;
+}
 .details{
     display: flex;
-    margin: 20px 0px;
     padding: 40px;
     color: white;
     background-color: #333645;

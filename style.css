@@ -28,11 +28,30 @@
   display: none;
 }
 
+.email-bar {
+  background-color: #dddddd;
+  padding: 20px 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.email-textbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.copywrite {
+  padding: 0px 0px 50px 100px;
+  color: white;
+  background-color: #333645;
+}
+
 .details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 20px 0px;
   padding: 40px;
   color: white;
   background-color: #333645;
