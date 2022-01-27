@@ -32,6 +32,67 @@
     display: flex;
 }
 
+.email-half{
+    //width: 40vw;
+}
+
+.max-textbox{
+    //width: 100%;
+}
+.email-name{
+    //width: 10px;
+}
+
+.bu{
+    display: flex;
+    flex: wrap;
+    color: white;
+    background-color: #333645;
+    justify-content: flex-end;
+}
+
+.buttom-line-1{
+    margin-right: auto;
+}
+.buttom-line-2,
+.buttom-line-3,
+.buttom-line-4,
+.buttom-line-5
+{
+    margin-right: 20px;
+}
+
+.buttom-line-2:hover{
+    .bordercirc{
+    background-color: rgb(48, 48, 134);
+    }
+}
+.buttom-line-3:hover{
+    .bordercirc{
+    background-color: rgb(13, 209, 199);
+    }
+}
+.buttom-line-4:hover{
+    .bordercirc{
+    background-color: rgb(218, 38, 113);
+    }
+}
+.buttom-line-5:hover{
+    .bordercirc{
+    background-color: rgb(21, 110, 226);
+    }
+}
+
+.bordercirc{
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.newsletter-tick{
+    margin: 10px 0;
+}
+
 .copywrite{
     padding: 0px 0px 50px 100px;
     color: white;
