@@ -42,6 +42,15 @@
   display: flex;
 }
 
+.email-half {
+  width: 40vw;
+}
+
+.zt:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 .bu {
   display: -webkit-box;
   display: -ms-flexbox;
